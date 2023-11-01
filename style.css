@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+
+}
+
+/*/ Header area /*/
+.header-info{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+}
+
+.information-text, .information-image{
+    width: 50%;
+    flex-grow: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-info h3{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.information-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-info a, .header-info p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/*/ Picture area /*/
+
+.picture-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictures{
+    display:flex;
+    gap: 12px;
+}
+
+.image{
+    display: flex;
+    border-radius: 10%;
+    border: solid 1px blue;
+    padding: 15px;
+    width: auto;
+}
+
+/*/ Common attributes /*/
+
+button{
+    background-color: #3882F6;
+}
+
