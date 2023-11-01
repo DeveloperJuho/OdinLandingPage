@@ -1,3 +1,4 @@
+/*/ Common attributes /*/
 *{
     font-family: Roboto, sans-serif;
 }
@@ -8,6 +9,19 @@ body{
     height: 100vh;
     margin: 0;
     
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0);
+}
+
+.header-info, .picture-info, .quote, .signup, .footer{
+    padding: 0px 150px 50px 150px;
 }
 
 /*/ Header area /*/
@@ -44,6 +58,10 @@ body{
 
 .information-image{
     background-color: gray;
+}
+
+.information img{
+    color: #E5E7EB;
 }
 
 a{
@@ -124,9 +142,37 @@ a{
     font-weight: bold;
 }
 /*/ Signup /*/
-
 .signup{
+    padding-top: 50px;
+}
+
+.signup-box{
     background-color: #3882F6;
+    border-radius: 3px; 
+    color: #E5E7EB;
+    display: flex;
+    gap: 12px;
+    padding: 30px 50px;
+}
+
+.signup-left{
+    flex-grow: 2;
+}
+
+.signup-right{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-left h3, .signup-left p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.signup button{
+    border-color: white;
 }
 /*/ Footer /*/
 
@@ -136,14 +182,5 @@ a{
     text-align: center;
 }
 
-/*/ Common attributes /*/
 
-button{
-    background-color: #3882F6;
-    color: #F9FAF8;
-}
-
-.header-info, .picture-info ,.quote, .signup, .footer{
-    padding: 0px 150px 50px 150px;
-}
 
