@@ -78,27 +78,50 @@ a{
 
 .pictures{
     display:flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 .image{
-    display: flex;
+    display: block;
+    box-sizing: border-box;
     border-radius: 10%;
-    border: solid 1px blue;
-    padding: 15px;
+    border: solid 2px rgb(0, 81, 255);
     width: auto;
+    padding: 10px;
+    height: 130px;
+}
+
+.picture{
+    width: 130px;
+    flex-shrink: 0;
 }
 
 /*/ Quote /*/
 
 .quote{
+    display: flex;
     background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
 }
 
 .quote-text{
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    margin-bottom: 0px;
+}
+
+.quote-name{
+    margin: 0px;
+    align-self: flex-end;
+    font-weight: bold;
 }
 /*/ Signup /*/
 
