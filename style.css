@@ -1,9 +1,13 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
 body{
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0;
-
+    
 }
 
 /*/ Header area /*/
@@ -11,14 +15,14 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 100px;
+
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .links{
@@ -29,11 +33,17 @@ body{
 .information{
     display: flex;
     justify-content: center;
+    gap: 16px;
+    flex-wrap: 1;
 }
 
 .information-text, .information-image{
     width: 50%;
     flex-grow: 1;
+}
+
+.information-image{
+    background-color: gray;
 }
 
 a{
@@ -47,7 +57,7 @@ a{
 
 .information-text h1{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 700;
     color: #F9FAF8;
     padding: 0px;
     margin: 0px;
@@ -79,9 +89,38 @@ a{
     width: auto;
 }
 
+/*/ Quote /*/
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+/*/ Signup /*/
+
+.signup{
+    background-color: #3882F6;
+}
+/*/ Footer /*/
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+}
+
 /*/ Common attributes /*/
 
 button{
     background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.header-info, .picture-info ,.quote, .signup, .footer{
+    padding: 0px 150px 50px 150px;
 }
 
